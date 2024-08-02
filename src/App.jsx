@@ -3,18 +3,11 @@ import "./App.css";
 
 // routes
 import Home from "./routes/Home";
+import Signin from "./routes/auth/Signin";
+import Signup from "./routes/auth/Signup";
 
 function Dashboard() {
   return <h1>Dashboard page</h1>;
-}
-
-function Signup() {
-  return <h1>Signup page</h1>;
-}
-
-const Base = "quizzat-frontend";
-function Signin() {
-  return <h1>Signin page</h1>;
 }
 
 function App() {
